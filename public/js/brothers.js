@@ -38,15 +38,15 @@
      * Banner HTML
      */
     bannerHTML += '<h1 class="header center white-text text-lighten-2">Brothers of Theta Tau</h1>';
-    bannerHTML += '\n<h5 class="header center col s12 light">All Classes</h5>';
-    bannerImageHTML = '<img alt="Unsplashed background img 1" src="/media/class_imgs/all.jpg" style="display: block; transform: translate3d(-50%, 357px, 0px);">';
+    bannerHTML += '\n<h5 class="header center col s12 light" text-shadow="2px 2px #ff0000">All Classes</h5>';
+    bannerImageHTML = '<img alt="Unsplashed background img 1" src="/media/class_imgs/all.jpg" style="display: block; transform: translate3d(-50%, 500px, 0px);">';
     //todo(rohan) write code to display eboard & classes etc
 
     /**
      * Eboard HTML
      */
     mainContainer.innerHTML += '<br><div class="divider"></div><br>';
-    mainContainer.innerHTML += '<h4 id="eboard" class="blue-text text-lighten-2">Spring 2017 E-Board</h4>';
+    mainContainer.innerHTML += '<h4 id="eboard" class="blue-text text-lighten-2">Spring 2018 E-Board</h4>';
     mainContainer.innerHTML += '<div class="row" id="eboardPrimary"></div>';
     mainContainer.innerHTML += '<div class="row" id="eboardSecondary"></div>';
 
@@ -159,7 +159,7 @@
      */
     bannerHTML += '<h1 class="header center white-text text-lighten-2">' + chosenClass['className'] + ' Class </h1>';
     bannerHTML += '<h5 class="header center col s12 light">Crossed ' + chosenClass['crossSemester'] + ' \'' + chosenClass['crossYear'] + '</h5>';
-    bannerImageHTML = '<img alt="Unsplashed background img 1" src="/media/class_imgs/' + chosenClass['numericalClassNum'] + '.jpg" style="display: block; transform: translate3d(-50%, 357px, 0px);">';
+    bannerImageHTML = '<img alt="Unsplashed background img 1" src="/media/class_imgs/' + chosenClass['numericalClassNum'] + '.jpg" style="display: block; transform: translate3d(100%, 357px, 0px);">';
 
     /**
      * Brother cards

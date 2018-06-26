@@ -5,5 +5,9 @@ window.classesInfo = [
   {"numericalClassNum":4,"className":"Gamma","crossYear":14,"crossSemester":"Fall","classNums":[26, 34]},
   {"numericalClassNum":5,"className":"Delta","crossYear":15,"crossSemester":"Spring","classNums":[34, 46]},
   {"numericalClassNum":6,"className":"Epsilon","crossYear":15,"crossSemester":"Fall","classNums":[46, 53]},
-  {"numericalClassNum":7,"className":"Zeta","crossYear":16,"crossSemester":"Spring","classNums":[53, 58]}
+  {"numericalClassNum":7,"className":"Zeta","crossYear":16,"crossSemester":"Spring","classNums":[53, 58]},
+  {"numericalClassNum":8,"className":"Eta","crossYear":16,"crossSemester":"Fall","classNums":[58, 62]},
+  {"numericalClassNum":9,"className":"Theta","crossYear":17,"crossSemester":"Spring","classNums":[62, 77]},
+  { "numericalClassNum": 10, "className": "Iota", "crossYear": 17, "crossSemester": "Fall", "classNums": [77, 85] },
+  {"numericalClassNum": 11,"className":"Kappa","crossYear": 18,"crossSemester":"Spring","classNums": [85,91] }
 ];

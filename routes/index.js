@@ -21,6 +21,29 @@ router.get('/rush_form', function(req, res, next) {
   res.sendfile('./views/rush_form.html');
 });
 
+
+router.get('/events', function (req, res, next) {
+    res.sendfile('./views/events/events.html');
+});
+
+router.get('/events/brotherhood', function (req, res, next) {
+    res.sendfile('./views/events/brotherhood.html');
+});
+
+
+router.get('/events/profession', function (req, res, next) {
+    res.sendfile('./views/events/profession.html');
+});
+
+
+router.get('/events/service', function (req, res, next) {
+    res.sendfile('./views/events/service.html');
+});
+
+router.get('/spotlight', function (req, res, next) {
+    res.sendfile('./views/spotlight.html');
+});
+
 /* 404 redirects to / */
 router.use(function(req, res, next) {
   res.status(404).redirect('/');

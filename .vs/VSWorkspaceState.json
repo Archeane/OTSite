@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\css",
+    "\\public\\js",
+    "\\public\\media",
+    "\\public\\media\\logos",
+    "\\public\\media\\logos\\oncampus",
+    "\\routes",
+    "\\views",
+    "\\views\\events"
+  ],
+  "SelectedNode": "\\public\\media\\logos\\spacex.png",
+  "PreviewInSolutionExplorer": false
+}
